@@ -110,10 +110,10 @@ while True:
 
 ## **OUTPUT:**  
 When the above program is executed, the output on the serial monitor will display real-time acceleration and gyroscope values, such as:
-```
+
 ![Screenshot 2025-03-24 105054](https://github.com/user-attachments/assets/5e1822d1-5925-4994-a39e-341d94aab3e5)
 
-```
+
 
 ## **RESULT:**  
 The **MPU6050 sensor** was successfully interfaced with the **Raspberry Pi Pico**, and real-time **acceleration and gyroscope data** were read and displayed. The sensor values can be used for **motion tracking, tilt detection, and gesture control applications**.
