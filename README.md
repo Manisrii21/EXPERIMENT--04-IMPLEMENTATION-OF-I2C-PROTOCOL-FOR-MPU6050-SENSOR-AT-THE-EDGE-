@@ -1,18 +1,12 @@
- # EXPERIMENT-03-INTERFACING-DIGITAL-SENSOR-WITH-EDGE-DEVELOPMENT-BOARD-
-
----
+# EXPERIMENT-04-INTERFACING-DIGITAL-SENSOR-WITH-EDGE-DEVELOPMENT-BOARD-
 
 ### **NAME:**  M MANI SRI LATHA
 ### **DEPARTMENT:**  BE.CSE.(IOT)
 ### **ROLL NO:**  212223110025
 ### **DATE OF EXPERIMENT:** 24-03-2025
 
----
-
 ## **AIM:**  
 To interface an **MPU6050 6-Axis Accelerometer & Gyroscope Sensor** with the **Raspberry Pi Pico** and display the sensor readings using MicroPython.
-
----
 
 ## **APPARATUS REQUIRED:**  
 1. Raspberry Pi Pico  
@@ -21,8 +15,6 @@ To interface an **MPU6050 6-Axis Accelerometer & Gyroscope Sensor** with the **R
 4. Breadboard  
 5. USB Cable  
 6. Computer with Thonny IDE  
-
----
 
 ## **THEORY:**  
 ### **About Raspberry Pi Pico:**  
@@ -43,15 +35,12 @@ The **MPU6050** is a **6-Axis Inertial Measurement Unit (IMU)** that includes:
 
 The **accelerometer** measures linear acceleration in **X, Y, Z axes**, while the **gyroscope** measures rotational velocity. The sensor communicates with the Raspberry Pi Pico via **I2C protocol**.
 
----
 
 ## **WORKING PRINCIPLE:**  
 1. The **MPU6050 sensor** is connected to the **Raspberry Pi Pico** using the **I2C communication protocol**.  
 2. The **Pico reads acceleration and gyroscope values** from the sensor registers.  
 3. The data is **processed and displayed on the serial monitor**.  
 4. The readings can be used for **motion tracking, tilt sensing, or gesture recognition**.
-
----
 
 ## **CIRCUIT DIAGRAM:**  
 ### **Connections:**  
@@ -62,8 +51,6 @@ The **accelerometer** measures linear acceleration in **X, Y, Z axes**, while th
 | GND | GND |
 | SDA | GP20 |
 | SCL | GP21 |
-
----
 
 ## **PROGRAM (MicroPython)**  
 ```python
@@ -128,6 +115,3 @@ When the above program is executed, the output on the serial monitor will displa
 
 ## **RESULT:**  
 The **MPU6050 sensor** was successfully interfaced with the **Raspberry Pi Pico**, and real-time **acceleration and gyroscope data** were read and displayed. The sensor values can be used for **motion tracking, tilt detection, and gesture control applications**.
-
----
-
