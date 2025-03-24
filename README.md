@@ -103,14 +103,15 @@ mpu6050_init()
 
 while True:
     aX, aY, aZ, gX, gY, gZ = get_sensor_data()
-    print(f"Accel: X={aX:.2f}g, Y={aY:.2f}g, Z={aZ:.2f}g | Gyro: X={gX:.2f}°/s, Y={gY:.2f}°/s, Z={gZ:.2f}°/s")
+    print(f"Accel: X={aX:.2f}g, Y={aY:.2f}g, Z={aZ:.2f}g | Gyro: X={gX:.2f}°/s,
+ Y={gY:.2f}°/s, Z={gZ:.2f}°/s")
     utime.sleep(1)
 ```
 
 ## **OUTPUT:**  
 When the above program is executed, the output on the serial monitor will display real-time acceleration and gyroscope values, such as:
 ```
-![Screenshot 2025-03-24 105054](https://github.com/user-attachments/assets/981ce144-ff54-4af1-b500-f6ac748903df)
+![Screenshot 2025-03-24 105054](https://github.com/user-attachments/assets/ad3a18f2-2ac6-4ad6-bfe7-8de2c1bbc446)
 ```
 
 ## **RESULT:**  
